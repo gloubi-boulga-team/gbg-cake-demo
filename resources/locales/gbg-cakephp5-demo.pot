@@ -1,0 +1,52 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gbg-cakephp5-demo\n"
+"POT-Creation-Date: 2024-03-25 21:53+0100\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_150\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __gbg;__gbgR;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gbg-cake5-demo-orm.php:102
+#, php-format
+msgid "User %s - %s has at least %s posts and %s usermetas"
+msgstr ""
+
+#: gbg-cake5-demo-orm.php:113
+#, php-format
+msgid "His latest posts have these titles : %s"
+msgstr ""
+
+#: gbg-cake5-demo.php:39
+#, php-format
+msgid "Plugin « %1$s » can not run because obsolete PHP version %2$s is not supported (should be >=%3$s). Upgrade it as soon as possible !"
+msgstr ""
+
+#: gbg-cake5-demo.php:51
+#, php-format
+msgid "Plugin « %s » can not work because it requires plugin « %s » which is not active."
+msgstr ""
+
+#: gbg-cake5-demo.php:65
+#, php-format
+msgid "Plugin « %s » is running 👍🤩. But... the only interesting thing in this plugin resides in the main plugin file where you can find some interesting code examples."
+msgstr ""
+
+#: gbg-cake5-demo.php:90
+#, php-format
+msgid "Php version `%s` does not match requirement `>%s`"
+msgstr ""
+
+#: gbg-cake5-demo.php:96
+#, php-format
+msgid "Fake message from « %s » || BAD trip 😜 : %s"
+msgstr ""

@@ -1,0 +1,23 @@
+parameters:
+    level: max
+    scanFiles:
+        - ../../../wp-config.php
+        - ../gbg-cake5/gbg-cake5-functions.php
+        - ../gbg-cake5/gbg-cake5-load-cache.php
+        - ../gbg-cake5/gbg-cake5-load-log.php
+        - ../gbg-cake5/gbg-cake5-load-orm.php
+        - ../gbg-cake5/gbg-cake5.php
+        - ../../../wp-includes/default-constants.php
+    scanDirectories:
+        - ../../../wp-admin
+        - ../../../wp-includes
+        - ../gbg-cake5/src
+        - ../gbg-cake5/vendor
+    paths:
+        - gbg-cake5-demo-cache.php
+        - gbg-cake5-demo-log.php
+        - gbg-cake5-demo-orm.php
+        - gbg-cake5-demo.php
+        - src
+    excludePaths:
+        - */noop.php

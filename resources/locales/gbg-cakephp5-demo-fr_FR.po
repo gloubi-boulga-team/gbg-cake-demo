@@ -1,0 +1,88 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gbg-cakephp5\n"
+"POT-Creation-Date: 2024-03-25 21:53+0100\n"
+"PO-Revision-Date: 2024-03-25 21:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: Gloubi Boulga team\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;__gbg;__gbgR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: resources\n"
+
+#: gbg-cake5-demo-orm.php:102
+#, php-format
+msgid "User %s - %s has at least %s posts and %s usermetas"
+msgstr "L'utilisateur %s - %s a au moins %s posts et %s usermetas"
+
+#: gbg-cake5-demo-orm.php:113
+#, php-format
+msgid "His latest posts have these titles : %s"
+msgstr "Ses derniers posts ont ces titres : %s"
+
+#: gbg-cake5-demo.php:39
+#, php-format
+msgid ""
+"Plugin « %1$s » can not run because obsolete PHP version %2$s is not "
+"supported (should be >=%3$s). Upgrade it as soon as possible !"
+msgstr ""
+"Le plugin « %1$s » ne peut pas fonctionner car la version de PHP obsolète "
+"%2$s n'est pas supportée (devrait être >=%3$s). À mettre à jour aussi vite "
+"que possible !"
+
+#: gbg-cake5-demo.php:51
+#, php-format
+msgid ""
+"Plugin « %s » can not work because it requires plugin « %s » which is not "
+"active."
+msgstr ""
+"Le plugin « %s » ne peut pas fonctionner car le plugin requis « %s » n'est "
+"pas actif."
+
+#: gbg-cake5-demo.php:65
+#, php-format
+msgid ""
+"Plugin « %s » is running 👍🤩. But... the only interesting thing in this "
+"plugin resides in the main plugin file where you can find some interesting "
+"code examples."
+msgstr ""
+"Le plugin « %s » est actif 👍🤩. Mais... la seule chose intéressante dans ce "
+"plugin réside dans le fichier principal du plugin où tu pourras trouver "
+"quelques exemples intéressants de code."
+
+#: gbg-cake5-demo.php:90
+#, php-format
+msgid "Php version `%s` does not match requirement `>%s`"
+msgstr "La version de Php `%s` ne convient pas au prérequis `>%s`"
+
+#: gbg-cake5-demo.php:96
+#, php-format
+msgid "Fake message from « %s » || BAD trip 😜 : %s"
+msgstr "Message bidon de « %s » || BAD trip 😜 : %s"
+
+#, php-format
+#~ msgid "Plugin « %s » is running 👍🤩. "
+#~ msgstr "Le plugin « %s » est actif 👍🤩. "
+
+#, php-format
+#~ msgid ""
+#~ "Your server doesn't meet minimal requirements for plugin %1$s« %2$s »%3$s"
+#~ msgstr ""
+#~ "Ton serveur ne répond pas aux prérequis pour le plugin %1$s« %2$s »%3$s"
+
+#, php-format
+#~ msgid ""
+#~ "Your site is running an %1$sinsecure version of PHP%2$s that is no longer "
+#~ "supported. Please contact your web hosting provider to update your PHP "
+#~ "version."
+#~ msgstr ""
+#~ "Ton site utilise une %1$sversion non sécurisée de PHP%2$s qui n'est plus "
+#~ "supportée. Contacte ton hébergeur pour mettre à jour cette version de PHP."
