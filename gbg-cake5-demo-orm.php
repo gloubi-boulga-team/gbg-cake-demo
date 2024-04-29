@@ -118,10 +118,7 @@ add_action('Gbg/Cake5.Orm.loaded', function () {
         foreach ($users as $user) {
             Log::info(
                 sprintf(
-                    __(
-                        'User %s - %s has at least %s posts and %s usermetas',
-                        'gbg-cake5'
-                    ),
+                    'User %1$s - %2$s has at least %3$s posts and %4$s usermetas',
                     $user->ID,
                     $user->user_nicename,
                     count($user->posts ?? []),
@@ -134,7 +131,7 @@ add_action('Gbg/Cake5.Orm.loaded', function () {
 
             Log::info(
                 sprintf(
-                    __('His latest posts have these titles : %s', 'gbg-cake5'),
+                    'His latest posts have these titles : %s',
                     implode(', ', $titles)
                 )
             );
@@ -192,10 +189,12 @@ add_action('Gbg/Cake5.Orm.loaded', function () {
                 'thing_metas' => [
                     [
                         'meta_name' => 'meta_1',
+                        // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value
                         'meta_value' => 'meta_value_1',
                     ],
                     [
                         'meta_name' => 'meta_2',
+                        // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_value
                         'meta_value' => 'meta_value_2',
                     ]
                 ]

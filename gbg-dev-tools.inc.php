@@ -51,9 +51,10 @@ return [
                 '/\.git(.*)/i',                         // ignore recursively .git* folders / files
                 '/composer\.(json|lock)$/i',            // ignore recursively composer.json and composer.locks
                 '/^[dir]\/repo-cli\.md/i',              // ignore repo-cli.md
+                '/^[dir]\/README\.md/i',              // ignore repo-cli.md
                 '/changelog(.*)/i',                     // ignore recursively changelog* files (avoid exposing versions)
                 '/phpstan.neon(.*)/i',                  // ignore recursively phpstan.neon* files
-                '/(.*)\.txt$/i',                        // ignore recursively *.txt files
+                '/(!readme).*\.txt$/i',                 // ignore recursively *.txt files except readme
                 '/(.*)\.log$/i',                        // ignore *.log files
                 '/^[dir]\/tests/i',                     // ignore root folder /tests
                 '/^[dir]\/env/i',                       // ignore root folder /env
