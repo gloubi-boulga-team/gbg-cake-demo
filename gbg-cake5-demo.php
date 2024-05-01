@@ -58,7 +58,6 @@ if (!is_plugin_active('gbg-cake5/gbg-cake5.php')) {
 }
 
 // Say hello just for fun 😜
-
 add_action('admin_notices', function () {
     echo '<div class="notice info"><p>';
     echo esc_html(sprintf(
@@ -170,7 +169,7 @@ function gbgCake5DemoDeactivate(): void
 
     $table = $wpdb->prefix . 'gbg_cake5_demo_things';
     // phpcs:ignore
-    $wpdb->query("DROP TABLE IF EXISTS `$table'`");
+    $wpdb->query("DROP TABLE IF EXISTS `$table`");
 
     $table = $wpdb->prefix . 'gbg_cake5_demo_thing_metas';
     // phpcs:ignore
